@@ -6,11 +6,9 @@ Bem-vindo ao desafio de programação Front-End da Toro Investimentos.
 
 Reproduza um sistema front-end que exiba em tempo real, de forma organizada e agradável, preços de ações recebidas através de uma conexão websocket.
 É preciso exibir pelo menos as 5 ações mais valorizadas e as 5 menos valorizadas em cards contendo o símbolo da ação, o preço atual e um gráfico que ilustre a evolução do preço.
-As cotações devem ser recebidas a partir do nosso simulador de cotações que pode ser acessado usando docker com o seguinte comando: `docker run -p 8080:8080 toroinvest/quotesmock`. O fluxo de cotações está no endpoint `/quotes`.
+As cotações devem ser recebidas a partir do nosso simulador de cotações que pode ser acessado usando docker com o seguinte comando: `docker run -p 8080:8080 toroinvest`. O fluxo de cotações está no endpoint `/quotes`.
 
 ## Layout
-
-Acesse o layer completo (Desk e Mobile) no Figma [neste link](https://www.figma.com/file/WWD46DsIYNhoipr3WSqFPb/TESTE-TORO-FRONT-END?node-id=0%3A1)
 
 ![Layout Desktop](screenshots/desktop.png)
 
